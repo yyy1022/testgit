@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    background-color: #010101;
+    border: 1px solid black;
+  }
+  .box1 {
+    width: 1200px;
+    margin: auto;
+    color: white;
+    font-family: SourceHanSansSC-regular;
+  }
+  .title {
+    float: left;
+    width: 280px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+    text-align: left;
+  }
+  .nav {
+    float: right;
+  }
+  ul {
+    list-style: none;
+  }
+  .ul1 > li {
+    width: 120px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 14px;
+    font-family: SourceHanSansSC-regular;
+    float: left;
+  }
+  .ul1 > li > a {
+    color: white;
+    text-decoration: none;
+  }
+  .box2 {
+    width: 240px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 20px;
+    position: absolute;
+    display: none;
+    left: -20px;
+  }
+  .box2One {
+    width: 120px;
+    float: left;
+    text-align: center;
+    line-height: normal;
+  }
+  .box2One > li {
+    height: 40px;
+  }
+  .box2One > li > .a1 {
+    text-decoration: none;
+    color: blue;
+  }
+  .li1 > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black !important;
+  }
+  .box2One > li > .a2 {
+    text-decoration: none;
+    color: #cccccc;
+  }
+  .box2Two {
+    float: right;
+  }
+  .liBox {
+    position: relative;
+  }
+  .liBox:hover > .box2 {
+    display: block;
+  }
+.main {
+    width: 100%;
+    height: 1200px;
+}
+.pic {
+    background-image: url(../images/联系我们.5756b701.jpg);
+    height: 460px;
+    text-align: center;
+    background-position: 50% center;
+}
+.middle {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+.middle-header {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin:20px auto 10px;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+.middle-main {
+    font-size: 14px;
+}
+.icon-phone{
+    background-image: url(../images/weibiaoti-.png);
+    background-repeat: no-repeat;
+    background-position: 87px 13px;
+}
+
+.icon-qq {
+    background-image: url(../images/QQ.png);
+    background-repeat: no-repeat;
+    background-position: 93px;
+}
+.icon-site {
+    background-image: url(../images/dizhi.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+.footer-nav {
+    list-style: none;
+    width: 1100px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    border-bottom: 1px dashed #cccccc;
+}
+.footer-nav li {
+    float: left;
+    width: 366px;
+    
+}
+.map {
+    width: 1100px;
+    height: 480px;
+    margin: auto;
+    border: 1px solid green;
+    margin-top: 45px;
+}
+
+/* 底部 */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 31px;
+    text-align: center;
+}
+.footer-box {
+    width: 1200px;
+    height: 16px;
+    margin:auto;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 78px;
+}
+.footer-box a {
+    color: #fff;
+    display: inline-block;
+    width: 110px;
+}
+.footer-item {
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 12px;
+}
